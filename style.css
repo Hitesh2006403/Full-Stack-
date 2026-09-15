@@ -6,8 +6,8 @@ body {
     box-sizing: border-box;
 }
 header {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #1e7fa6;
+    color: rgba(255, 255, 255, 0.994);
     padding: 10px 0;
     text-align: center;
 }
@@ -24,5 +24,5 @@ nav a {
     text-decoration: none;
 }
 nav a:hover {
-    background-color: #ddd ;
+    background-color: #d00d3e ;
 }
