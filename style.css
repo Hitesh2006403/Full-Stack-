@@ -11,3 +11,7 @@ header {
     padding: 10px 0;
     text-align: center;
 }
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
