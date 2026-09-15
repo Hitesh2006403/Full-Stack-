@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration </title>
+</head>
+<body>
+    <header><h1>Student Registration </h1></header>
+    <p> Welcome to our Student Registration Page ....</p>
+    <hr>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+    <hr>
+    <main>
+        <section> 
+              <h2>Enter your details below:</h2>
+    <form>
+        <label>Full Name </label>
+        <input type="text" name="fullname" placeholder="Enter your full name" required>
+        <br> <br>
+        <label> Email </label>
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <br> <br>
+        <label> Password</label> 
+        <input type="password" name="password" placeholder="Enter your password" required>
+        <br> <br>
+        <label> Confirm Password</label>
+        <input type="password" name="confirmpassword" placeholder="Confirm your password" required>
+        <br> <br>
+        <label> Gender</label>
+        <input type="radio" name="gender" value="male" required> Male
+        <input type="radio" name="gender" value="female" required> Female
+        <br> <br>
+        <label> Skills </label>
+        <br>
+        <input type="checkbox" name="skills" value="html"> HTML
+        <br>
+        <input type="checkbox" name="skills" value="css"> CSS
+        <br>
+        <input type="checkbox" name="skills" value="javascript"> JavaScript
+        <br>
+        <input type="checkbox" name="skills" value="python"> Python
+        <br> <br>
+        <label> Course </label>
+        <select name="course" required>
+            <option> Java Full stack</option>
+            <option> Python Full stack</option>
+            <option> MERN Full stack</option>    
+        </select>
+        <br> <br>
+        <label> Address </label>
+        <textarea name="address" placeholder="Enter your address" required></textarea>
+        <br> <br>
+        <button type="submit">Register</button>
+    </form>
+        </section>
+        <article>
+            <h2>"Welcome to our Student Registration Page!"</h2>
+            <p>We are excited to have you here. Please fill out the registration form with your details, including your full name, email
+        </article>
+        <aside>
+            <h3>Popular Courses  </h3>
+            <ul>
+                <li>Java Full Stack Development</li>
+                <li>Python Full Stack Development</li>
+                <li>MERN Full Stack Development</li>
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <p>2026 Student Registration Page</p>
+        <p> Contact us at info@studentregistration.com</p>
+    </footer>
+</body>
+</html>
