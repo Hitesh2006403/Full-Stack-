@@ -14,7 +14,7 @@ header {
 nav {
     background-color: #333;
     overflow: hidden;
-    padding: center;
+    text-align: center;
 }
 nav a {
     float: left;
