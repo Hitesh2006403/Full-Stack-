@@ -3,10 +3,11 @@ body {
     background-color: #f4f4f4;
 }
 * {
+    background-color: F0FFFF;
     box-sizing: border-box;
 }
 header {
-    background-color: #1e7fa6;
+    background-color: #ff000080;
     color: rgba(255, 255, 255, 0.994);
     padding: 10px 0;
     text-align: center;
@@ -15,7 +16,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #333;
+    background-color: #ab6363;
     padding: 20px;
 }
 
@@ -25,5 +26,18 @@ nav a {
     margin: 0 20px;
 }
 nav a:hover {
-    background-color: #d00d3e ;
+    background-color: #e3d7da ;
+}
+main {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+footer {
+    background-color: #ab6363;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
