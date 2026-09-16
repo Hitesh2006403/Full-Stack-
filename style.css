@@ -119,7 +119,7 @@ nav a:hover {
 
 button {
     background-color: #5dade2;
-    color: white;
+    color: rgb(234, 11, 11);
     border: none;
     padding: 12px;
     width: 100%;
@@ -135,6 +135,17 @@ main {
     gap: 20px;
     align-items: flex-start;
     flex-wrap: wrap;
+}
+main section{
+    flex: 2 1 500px;
+}
+main article,
+main aside {
+    flex: 1 1 250px;
+    padding: 20px;
+    border: 1px solid #d5dbdb;
+    background-color: #ffffff;
+    border-radius: 8px;
 }
 
 button:hover {
