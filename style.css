@@ -130,6 +130,12 @@ button {
     margin-top: 15px;
     transition: background 0.3s;
 }
+main {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
 
 button:hover {
     background-color: #3498db;
