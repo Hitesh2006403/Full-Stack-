@@ -3,83 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Registration </title>
-    <style>
-        h2 {
-            color: brown;
-        }
-        p {
-            color: green;
-        }
-    </style>
-    <link rel="stylesheet" href="style.css"> 
-
+    <title>Student Registration</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header><h1 style="color: brown">Student Registration</h1></header>
-    <p> Welcome to our Student Registration Page ....</p>
-    <hr>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Student Registration</h1>
+        <p>Welcome to our Student Registration Page ....</p>
+    </header>
+
+    <!-- Navigation Menu -->
     <nav>
-        <a href="index.html">Home</a> |
-        <a href="about.html">About</a> |
-        <a href="contact.html">Contact</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
     </nav>
-    <hr>
-    <main>
-        <section> 
-              <h2>Enter your details below:</h2>
-    <form>
-        <label>Full Name </label>
-        <input type="text" name="fullname" placeholder="Enter your full name" required>
-        <br> <br>
-        <label> Email </label>
-        <input type="email" name="email" placeholder="Enter your email" required>
-        <br> <br>
-        <label> Password</label> 
-        <input type="password" name="password" placeholder="Enter your password" required>
-        <br> <br>
-        <label> Confirm Password</label>
-        <input type="password" name="confirmpassword" placeholder="Confirm your password" required>
-        <br> <br>
-        <label> Gender</label>
-        <input type="radio" name="gender" value="male" required> Male
-        <input type="radio" name="gender" value="female" required> Female
-        <br> <br>
-        <label> Skills </label>
-        <br>
-        <input type="checkbox" name="skills" value="html"> HTML
-        <input type="checkbox" name="skills" value="css"> CSS
-        <input type="checkbox" name="skills" value="javascript"> JavaScript
-        <input type="checkbox" name="skills" value="python"> Python
-        <label> Course </label>
-        <select name="course" required>
-            <option> Java Full stack</option>
-            <option> Python Full stack</option>
-            <option> MERN Full stack</option>    
-        </select>
-        <br> <br>
-        <label> Address </label>
-        <textarea name="address" placeholder="Enter your address" required></textarea>
-        <br> <br>
-        <button type="submit">Register</button>
-    </form>
-        </section>
-        <article>
-            <h2>"Welcome to our Student Registration Page!"</h2>
-            <p>We are excited to have you here. Please fill out the registration form with your details, including your full name, email
-        </article>
-        <aside>
-            <h3>Popular Courses  </h3>
-            <ul>
-                <li>Java Full Stack Development</li>
-                <li>Python Full Stack Development</li>
-                <li>MERN Full Stack Development</li>
-            </ul>
-        </aside>
-    </main>
+
+    <!-- Registration Form Section -->
+    <div class="container">
+        <div class="form-card">
+            <h2>Enter your details below:</h2>
+            <form>
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" placeholder="Confirm your password" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Gender</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="gender" value="male"> Male</label>
+                        <label><input type="radio" name="gender" value="female"> Female</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Skills</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="skills" value="html"> HTML</label>
+                        <label><input type="checkbox" name="skills" value="css"> CSS</label>
+                        <label><input type="checkbox" name="skills" value="javascript"> JavaScript</label>
+                        <label><input type="checkbox" name="skills" value="python"> Python Course</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="course-select">Preferred Program</label>
+                    <select id="course-select">
+                        <option value="java-fullstack">Java Full Stack</option>
+                        <option value="mern-fullstack">MERN Full Stack</option>
+                        <option value="python-fullstack">Python Full Stack</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <textarea id="address" rows="3" placeholder="Enter your address"></textarea>
+                </div>
+
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
     <footer>
-        <p>2026 Student Registration Page</p>
-        <p> Contact us at info@studentregistration.com</p>
+        <h3>Popular Courses</h3>
+        <p>Java Full Stack Development &bull; Python Full Stack Development &bull; MERN Full Stack Development</p>
+        <p>2026 Student Registration Page | Contact: info@studentregistration.com</p>
     </footer>
+
 </body>
 </html>
