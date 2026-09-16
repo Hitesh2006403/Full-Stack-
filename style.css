@@ -171,3 +171,14 @@ footer p {
     margin: 5px 0;
     font-size: 14px;
 }
+@media screen and (max-width: 700px) {
+    main {
+        flex-direction:row;
+    }
+    main section,
+    main article,
+    main aside {
+        width: 100%;
+    }
+   
+}   
